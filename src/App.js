@@ -45,7 +45,7 @@ const handleinput=(e)=>{
 
       </p>
       <button type="submit" >Submit</button>
-     </form> : <p>Welcome,user!</p>}
+     </form> : <p>Welcome, user!</p>}
      
     </div>
   );
