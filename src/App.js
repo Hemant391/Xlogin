@@ -11,7 +11,7 @@ function App() {
     'Password':''
   })
 useEffect(()=>{
-localStorage.setItem('crio','password')
+localStorage.setItem('user','password')
 
 },[])
 
@@ -41,7 +41,7 @@ const handleinput=(e)=>{
       </p>
       <p>
       <label >Password:</label>
-      <input name='Password' type="text" value={data.Password} onChange={handleinput} required />
+      <input name='Password' type="password" value={data.Password} onChange={handleinput} required />
 
       </p>
       <button type="submit" >Submit</button>
